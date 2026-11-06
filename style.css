@@ -99,6 +99,7 @@ nav {
     border-bottom: 2px solid transparent;
     position: relative;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .nav__link::after {
@@ -186,6 +187,7 @@ nav {
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .modal__link--primary {
