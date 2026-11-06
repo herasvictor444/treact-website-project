@@ -214,6 +214,13 @@ header .row {
     justify-content: space-between;
 }
 
+h1 {
+    color: #1A202C;
+}
+
+.purple {
+    color: #6415ff;
+}
 
 /* 
 
