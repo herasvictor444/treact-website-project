@@ -239,6 +239,14 @@ h1 {
     color: #6415ff;
 }
 
+.header__description {
+    width: 40%;
+}
+
+.header__img--wrapper {
+    width: 60%;
+}
+
 /* 
 
 FEATURES ↓
