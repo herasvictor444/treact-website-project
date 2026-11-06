@@ -98,6 +98,7 @@ nav {
     letter-spacing: 0.35px;
     border-bottom: 2px solid transparent;
     position: relative;
+    cursor: pointer;
 }
 
 .nav__link::after {
@@ -137,10 +138,6 @@ nav {
 
 .nav__link--primary:hover {
     background-color: #4f12c7;
-}
-
-.not-allowed {
-    cursor: not-allowed;
 }
 
 .btn__menu {
@@ -188,6 +185,7 @@ nav {
     margin: 8px 0;
     padding-bottom: 4px;
     border-bottom: 2px solid transparent;
+    cursor: pointer;
 }
 
 .modal__link--primary {
@@ -210,6 +208,9 @@ nav {
     right: 18px;
 }
 
+.not-allowed {
+    cursor: not-allowed;
+}
 
 /* 
 
