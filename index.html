@@ -65,7 +65,25 @@
             <div class="container">
                 <div class="row">
                     <!-- We need a headline, a paragraph, a form, and some images -->
-                    <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
+                    <div class="header__description">
+                        <!-- shift + up arrow or down arrow selects multiple lines of code -->
+                        <!-- alt + up arrow or down arrow moves lines of code up and down -->
+                        <h1>
+                            Beautiful React Templates <span class="purple">for you.</span>
+                        </h1>
+                        <p class="header__description--para">
+                            "Our templates are easy to setup, understand, and customize. Fully modular components with a variety of pages and components."
+                        </p>
+                        <div class="header__email">
+                            <input type="email" class="header__email--input" placeholder="Your E-mail Address">
+                            <button class="header__email--btn">Get started</button>
+                        </div>
+                        <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+                        <img src="Treact Starter Resources\assets\customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="our biggest customers" class="header__customers">
+                    </div>
+                    <figure class="header__img--wrapper">
+                        <img src="Treact Starter Resources\assets\design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="girl on a computer in her room" class="header__img">
+                    </figure>
             </div>
         </header>
     </section>
@@ -129,3 +147,9 @@
 </body>
 
 </html>
+
+<!-- 
+Force git to deploy a page by typing into command line:
+    git commit --allow-empty -m "Trigger GitHub Pages deployment" (all one line)
+    git push origin main 
+-->
