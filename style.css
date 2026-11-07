@@ -258,6 +258,33 @@ p {
     margin: 32px 0;    
 }
 
+.header__email {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.header__email--input {
+    border-radius: 10px;
+    border-color: #72777e;
+    transition: all 300ms ease;
+}
+
+.header__email--input:hover {
+    border-color: #243e63;
+}
+
+.header__email--btn {
+    border-radius: 10px;
+    border: none;
+    background-color: #6415ff;
+    color: #fff;
+    transition: all 300ms ease;
+}
+
+.header__email--btn:hover {
+    background-color: #4f12c7;
+}
+
 /* 
 
 FEATURES ↓
