@@ -264,13 +264,27 @@ p {
 }
 
 .header__email--input {
-    border-radius: 10px;
-    border-color: #72777e;
-    transition: all 300ms ease;
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms ease;
 }
 
 .header__email--input:hover {
-    border-color: #243e63;
+    border-color: rgba(160, 170, 192);
+}
+
+.header__email--input:focus, .header__email--input:active {
+    outline: none;
+    border-color: rgba(100, 21, 255);
 }
 
 .header__email--btn {
@@ -439,6 +453,21 @@ MOBILE RESPONSIVENESS ↓
 
     .nav__links {
         opacity: 0;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .header__description {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__description--para {
+        margin: 20px 0;
     }
 }
 
