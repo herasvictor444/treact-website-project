@@ -383,6 +383,12 @@ FEATURES ↓
     flex-direction: column;
 }
 
+.service__icons {
+    width: 100%;
+    border: solid;
+    border-radius: 100%;
+}
+
 /* 
 
 QUALITY WORK ↓
