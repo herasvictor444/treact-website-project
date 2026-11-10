@@ -430,6 +430,10 @@ FEATURES ↓
   border-radius: 100%;
 }
 
+.service__icon {
+    display: flex;
+}
+
 /* 
 
 QUALITY WORK ↓
