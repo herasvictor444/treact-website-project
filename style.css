@@ -405,6 +405,7 @@ FEATURES ↓
 .services {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .service {
@@ -606,6 +607,10 @@ MOBILE RESPONSIVENESS ↓
   #pricing .section__title {
     font-size: 48px;
   }
+
+  .services {
+    max-width: 768px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -615,6 +620,10 @@ MOBILE RESPONSIVENESS ↓
 
   .nav__links {
     opacity: 0;
+  }
+
+  .services {
+    justify-content: center;
   }
 
   #quality .row,
