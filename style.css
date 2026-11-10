@@ -611,6 +611,10 @@ MOBILE RESPONSIVENESS ↓
   .services {
     max-width: 768px;
   }
+
+  .service {
+    width: calc(50%);
+  }
 }
 
 @media (max-width: 768px) {
@@ -624,6 +628,11 @@ MOBILE RESPONSIVENESS ↓
 
   .services {
     justify-content: center;
+  }
+
+  .service {
+    width: auto;
+    max-width: 384px;
   }
 
   #quality .row,
