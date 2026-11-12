@@ -702,6 +702,11 @@ PRICING ↓
   text-align: center;
 }
 
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* 
 
 TESTIMONIALS ↓
