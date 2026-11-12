@@ -713,6 +713,10 @@ PRICING ↓
     flex-direction: column;
 }
 
+.buy__now {
+    background-color: teal;
+}
+
 /* 
 
 TESTIMONIALS ↓
