@@ -713,7 +713,7 @@ PRICING ↓
     flex-direction: column;
 }
 
-.buy__now {
+#pricing .btn {
     background-color: teal;
 }
 
