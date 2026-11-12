@@ -707,6 +707,12 @@ PRICING ↓
     flex-wrap: wrap;
 }
 
+.plan {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+}
+
 /* 
 
 TESTIMONIALS ↓
