@@ -614,6 +614,22 @@ VALUES ↓
     line-height: 1.25;
 }
 
+.values__description {
+    padding: 32px 64px 32px 0;
+}
+
+.values__description, .values__img {
+    width: 50%;
+}
+
+.values__list {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    max-width: none;
+    flex-direction: row;
+}
+
 /*
 
 PRICING ↓
@@ -828,13 +844,13 @@ MOBILE RESPONSIVENESS ↓
     margin-top: 40px;
   }
 
-  .quality__description, .steps__description {
+  .quality__description, .steps__description, .values__description {
     padding: 0;
     margin-top: 64px;
     text-align: center;
   }
 
-  .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper {
+  .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img {
     width: 100%;
     max-width: 448px;
   }
