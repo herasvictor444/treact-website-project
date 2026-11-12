@@ -532,6 +532,24 @@ STEPS ↓
   align-items: center;
 }
 
+.steps__img--wrapper, .steps__description {
+    width: 50%;
+}
+
+.steps__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__list--item {
+    display: flex;
+}
+
+.steps__list--item--title, .steps__list--item--description {
+    display: flex;
+    flex-direction: column;
+}
+
 /* 
 
 VALUES ↓
