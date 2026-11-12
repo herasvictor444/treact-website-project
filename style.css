@@ -532,8 +532,30 @@ STEPS ↓
   align-items: center;
 }
 
+.steps__img--wrapper {
+    display: flex;
+    position: relative;
+}
+
 .steps__img--wrapper, .steps__description {
     width: 50%;
+}
+
+.steps__img {
+    z-index: 2;
+}
+
+.steps__grid {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
 }
 
 .steps__description {
@@ -649,6 +671,12 @@ MOBILE RESPONSIVENESS ↓
 
   .header__img {
     max-width: 512px;
+  }
+
+  .steps__grid {
+    height: 5rem;
+    width: 5rem;
+    bottom: -50px;
   }
 }
 
@@ -772,6 +800,11 @@ MOBILE RESPONSIVENESS ↓
 
   #pricing .row {
     margin-top: 40px;
+  }
+
+  .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper {
+    width: 100%;
+    max-width: 448px;
   }
 }
 
