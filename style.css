@@ -713,6 +713,16 @@ PRICING ↓
     flex-direction: column;
 }
 
+.plan, .plan__head, .plan__body, .plan__foot {
+    border: 1px solid rgb(229, 231, 235);
+    align-items: center;
+}
+
+.plan__head, .plan__body, .plan__foot {
+    display: flex;
+    flex-direction: column;
+}
+
 #pricing .btn {
     background-color: teal;
 }
