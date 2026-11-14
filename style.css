@@ -1114,6 +1114,34 @@ footer {
   overflow: hidden;
 }
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+}
+
+.link__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.link__type, .link__link {
+    color: #f7fafc;
+}
+
+.link__link {
+    text-decoration: none;
+}
+
 /* 
 
 MOBILE RESPONSIVENESS ↓
