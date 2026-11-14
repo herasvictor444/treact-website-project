@@ -1187,6 +1187,7 @@ footer {
 
 .link__type, .link__link, .footer__title, .footer__copyright {
     color: #f7fafc;
+    z-index: 3;
 }
 
 .link__link {
