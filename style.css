@@ -1445,6 +1445,16 @@ MOBILE RESPONSIVENESS ↓
   footer {
     padding: 80px 32px;
   }
+
+  #testimonials .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  #start .container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
 }
 
 @media (max-width: 768px) {
